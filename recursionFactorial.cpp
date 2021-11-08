@@ -1,7 +1,8 @@
 //factorial using recursion
 
 #include<stdio.h>
-//int fact(int);
+
+//function declaration
 int fact(int a)
 {
 	
@@ -22,4 +23,5 @@ int main()
 	printf("Enter the number\n");
 	scanf("%d", &x);
 	printf("The factorial is :%d ",fact(x));
+	return 0;
 }
